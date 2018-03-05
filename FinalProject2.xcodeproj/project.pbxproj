@@ -26,6 +26,12 @@
 		5353B92B1F4B176C0093130C /* FinalProject2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5353B92A1F4B176C0093130C /* FinalProject2Tests.swift */; };
 		5353B9361F4B176C0093130C /* FinalProject2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5353B9351F4B176C0093130C /* FinalProject2UITests.swift */; };
 		53AC7C5E1F4CA22700EC06AC /* PopUp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC7C5D1F4CA22700EC06AC /* PopUp1ViewController.swift */; };
+		D1989D6C204CFE8100D916C0 /* trophyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1989D66204CFE8100D916C0 /* trophyicon.png */; };
+		D1989D6D204CFE8100D916C0 /* tasks.png in Resources */ = {isa = PBXBuildFile; fileRef = D1989D67204CFE8100D916C0 /* tasks.png */; };
+		D1989D6E204CFE8100D916C0 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D1989D68204CFE8100D916C0 /* settings.png */; };
+		D1989D6F204CFE8100D916C0 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = D1989D69204CFE8100D916C0 /* profile.png */; };
+		D1989D70204CFE8100D916C0 /* profilecircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D1989D6A204CFE8100D916C0 /* profilecircle.png */; };
+		D1989D71204CFE8100D916C0 /* dominate logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1989D6B204CFE8100D916C0 /* dominate logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,12 @@
 		5353B9351F4B176C0093130C /* FinalProject2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProject2UITests.swift; sourceTree = "<group>"; };
 		5353B9371F4B176C0093130C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53AC7C5D1F4CA22700EC06AC /* PopUp1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp1ViewController.swift; sourceTree = "<group>"; };
+		D1989D66204CFE8100D916C0 /* trophyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophyicon.png; sourceTree = "<group>"; };
+		D1989D67204CFE8100D916C0 /* tasks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tasks.png; sourceTree = "<group>"; };
+		D1989D68204CFE8100D916C0 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		D1989D69204CFE8100D916C0 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		D1989D6A204CFE8100D916C0 /* profilecircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilecircle.png; sourceTree = "<group>"; };
+		D1989D6B204CFE8100D916C0 /* dominate logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dominate logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,12 @@
 		5353B9111F4B176C0093130C /* FinalProject2 */ = {
 			isa = PBXGroup;
 			children = (
+				D1989D66204CFE8100D916C0 /* trophyicon.png */,
+				D1989D67204CFE8100D916C0 /* tasks.png */,
+				D1989D68204CFE8100D916C0 /* settings.png */,
+				D1989D69204CFE8100D916C0 /* profile.png */,
+				D1989D6A204CFE8100D916C0 /* profilecircle.png */,
+				D1989D6B204CFE8100D916C0 /* dominate logo.png */,
 				5353B9121F4B176C0093130C /* AppDelegate.swift */,
 				5353B9141F4B176C0093130C /* ViewController.swift */,
 				5353B9161F4B176C0093130C /* Main.storyboard */,
@@ -268,8 +286,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1989D70204CFE8100D916C0 /* profilecircle.png in Resources */,
+				D1989D6C204CFE8100D916C0 /* trophyicon.png in Resources */,
+				D1989D6E204CFE8100D916C0 /* settings.png in Resources */,
+				D1989D6D204CFE8100D916C0 /* tasks.png in Resources */,
+				D1989D6F204CFE8100D916C0 /* profile.png in Resources */,
 				5353B9201F4B176C0093130C /* LaunchScreen.storyboard in Resources */,
 				5353B91D1F4B176C0093130C /* Assets.xcassets in Resources */,
+				D1989D71204CFE8100D916C0 /* dominate logo.png in Resources */,
 				5353B9181F4B176C0093130C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +485,6 @@
 		5353B93B1F4B176C0093130C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
 				INFOPLIST_FILE = FinalProject2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GWC.FinalProject2;
@@ -474,7 +497,6 @@
 		5353B93C1F4B176C0093130C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
 				INFOPLIST_FILE = FinalProject2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GWC.FinalProject2;
